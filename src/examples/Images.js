@@ -9,37 +9,13 @@ const Images = () => {
       <article>
         <h4>contstrained / default</h4>
         <StaticImage
-          src="../assets/images/recipe-1.jpeg"
+          src="../assets/images/boombox.jpeg"
           alt="food"
           height={400}
           placeholder="tracedSVG"
           layout="contstrained"
           className="example-img"
           as="section"
-        />
-      </article>
-      <article>
-        <h4>fixed</h4>
-        <StaticImage
-          src="../assets/images/recipe-1.jpeg"
-          alt="food"
-          width={200}
-          placeholder="tracedSVG"
-          layout="fixed"
-          className="example-img"
-          as="div"
-        />
-      </article>
-      <article>
-        <h4>contstrained / default</h4>
-        <StaticImage
-          src="../assets/images/recipe-1.jpeg"
-          alt="food"
-          height={400}
-          placeholder="dominantColor"
-          layout="fullWidth"
-          className="example-img"
-          as="article"
         />
       </article>
     </Wrapper>

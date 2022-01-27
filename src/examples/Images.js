@@ -7,13 +7,11 @@ const Images = () => {
   return (
     <Wrapper>
       <article>
-        <h4>contstrained / default</h4>
         <StaticImage
           src="../assets/images/boombox.jpeg"
-          alt="food"
-          height={400}
+          alt="boombox"
           placeholder="tracedSVG"
-          layout="contstrained"
+          layout="constrained"
           className="example-img"
           as="section"
         />
@@ -25,17 +23,20 @@ const Images = () => {
 const Wrapper = styled.section`
   width: 70vw;
   margin: 0 auto;
-  display: grid;
+  display: gird;
+  justify-content: center;
   text-align: center;
   gap: 2rem;
   article {
-    border: 2px solid red;
+    border: none;
   }
   .example-img {
     border-radius: 1rem;
   }
   @media (min-width: 992px) {
     grid-template-columns: 1fr 1fr 1fr;
+    .example-img {
+    }
   }
 `
 

@@ -28,7 +28,7 @@ const about = () => {
             </Link>
           </article>
           <StaticImage
-            src="../assets/images/fitness.jpeg"
+            src="../assets/images/technology.jpeg"
             alt="fitness girl"
             className="about-img"
             placeholder="blurred"

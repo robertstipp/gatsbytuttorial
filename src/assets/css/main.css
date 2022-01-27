@@ -15,7 +15,7 @@
   --primary-300: #03673d;
   --primary-400: #03673d;
   /* main */
-  --primary-500: #03673d;
+  --primary-500: #009859;
   --primary-600: #03673d;
   --primary-700: #03673d;
   --primary-800: #03673d;
@@ -194,9 +194,9 @@ button,
 .btn {
   cursor: pointer;
   appearance: none;
-  color: var(--white);
-  background: var(--primary-500);
-  border: none;
+  color: var(--primary-500);
+  background: transparent;
+  border: solid 1px var(--primary-700);
   border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
   padding: 0.375rem 0.75rem;
@@ -207,7 +207,7 @@ button,
 button:hover,
 .btn:hover {
   color: var(--white);
-  background: var(--primary-700);
+  background: var(--primary-500);
   box-shadow: var(--shadow-2);
 }
 button.small {
@@ -358,6 +358,7 @@ form > *:last-child {
 }
 .nav-btn {
   padding: 0.15rem 0.75rem;
+  color: var(--primary-0);
 }
 .nav-btn svg {
   font-size: 1.5rem;
@@ -393,6 +394,7 @@ form > *:last-child {
 }
 .contact-link a {
   padding: 0.15rem 1rem;
+  color: #007c48;
 }
 
 @media screen and (min-width: 992px) {

@@ -12,12 +12,7 @@ const Tags = () => {
         <section className="about-page">
           <article>
             <h2>Dummy text? More like dummy thicc text, amirite?</h2>
-            <p>
-              I'm baby aesthetic truffaut blue bottle edison bulb palo santo
-              locavore roof party freegan neutra mumblecore direct trade.
-              Franzen cold-pressed health goth forage, wolf direct trade
-              messenger bag.
-            </p>
+            <p></p>
             <p>
               Post-ironic hot chicken kale chips, food truck tofu vinyl jean
               shorts roof party prism dreamcatcher schlitz pickled. Jianbing
